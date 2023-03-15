@@ -2,10 +2,11 @@
 
 # PROJECT NAME : Multi-page and Responsive Portfolio Website
 
-## Project Goals / Services provided by the application
+## Project Goals
 
 1. Showcase my skills
 2. Present my personal or commercial work
+3. Practice web development
 
 ## TECHNOLOGIES
 
