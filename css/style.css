@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    color: black;
+    overflow-x: hidden; /*  idk what it does */
+}
+
+ul{
+    list-style: none;
+}
+
+/* ------------ Navigation Bar ---------------- */
