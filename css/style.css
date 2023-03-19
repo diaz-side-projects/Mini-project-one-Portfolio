@@ -109,7 +109,7 @@ a:hover{
 
 .about-section{
     position: relative;
-    padding-top: 3rem;
+    padding-top: 0.3rem;
     padding-bottom: 3rem;
 }
 
@@ -179,6 +179,95 @@ a:hover{
 .portfolio-image{
     max-width: 100%;
 }
+
+/* ------------ Contact Section ---------------- */
+.contact {
+    position: relative;
+    height: 100vh;
+    padding: 5%;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contact__row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contact h2 {
+    font-size: 50px;
+  }
+  
+  .contact-left {
+    flex-basis: 35%;
+  }
+  
+  .contact-left p {
+    margin-top: 30px;
+  }
+  
+  .contact-left p i {
+    color: #797a7c;
+    margin-right: 15px;
+    font-size: 22px;
+  }
+  
+  .contact__btn {
+    display: block;
+    margin: 38px auto;
+    border: 1px solid #080808;
+    padding: 8px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    width: fit-content;
+  }
+  
+  .contact__btn:hover {
+    background: #5c5d5e;
+  }
+  
+  .contact__btn.contact__btn--1 {
+    display: inline-block;
+    background-color: #c9c9c9;
+  }
+  
+  .contact__btn--1:hover {
+    background: #5e5c5c;
+    cursor: pointer;
+  }
+
+  .contact-right {
+    flex-basis: 60%;
+  }
+  
+  .contact-right form {
+    width: 100%;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #b6b5b5;
+    padding: 15px;
+    margin: 15px 0;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border: 6px;
+  }
+  
+  .contact__btn.contact__btn--2 {
+    display: inline-block;
+    background-color: #c9c9c9;
+    font-size: 18px;
+  }
+  
+  .contact__btn--2:hover {
+    background: #494949;
+    cursor: pointer;
+  }
+  
 /* ------------ Footer Section ---------------- */
 
 .footer{
@@ -251,3 +340,19 @@ a:hover{
     }
 
     }
+
+/* ------------ Contact Section ---------------- */
+
+    @media only screen and (max-width: 600px){
+        .contact{
+            height: 110vh;
+        }
+      
+        .contact__row{
+            flex-direction: column;
+        }
+      
+        .contact-left, .contact-right {
+            flex-basis: 100%;
+        }
+      } 
