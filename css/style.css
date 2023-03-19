@@ -153,6 +153,19 @@ a:hover{
     padding-bottom: 3rem;
 }
 
+.portfolio-section .portfolio-my-work{
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+}
+
 .portfolio-section .portfolio-title{
     position: relative;
     font-family: "Poppins", sans-serif;
@@ -338,13 +351,17 @@ a:hover{
         padding-top: 1rem;
     }
     
+    .portfolio-section .portfolio-my-work{
+        padding-bottom: 2rem;
+    }
+
     .portfolio-image{
         max-width: 100%;
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
 
     .link-list{
-        text-align: right;
+        text-align: center;
         font-size: 22px;
     }
 
